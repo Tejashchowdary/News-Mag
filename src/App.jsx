@@ -1,6 +1,6 @@
 import { useState } from "react"
-import Navbar from "./Components/Navbar"
-import NewsBoard from "./Components/NewsBoard"
+import Navbar from "./Components/Navbar.jsx"
+import NewsBoard from "./Components/NewsBoard.jsx"
 
 export const App = () => {
   const [category,setCategory]=useState("general");
